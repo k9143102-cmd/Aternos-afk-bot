@@ -1,0 +1,25 @@
+{
+  "name": "aternos-bot",
+  "version": "1.0.0",
+  "description": "A Node.js bot for keeping an Aternos server active.",
+  "main": "afk_bot.js",
+  "scripts": {
+    "start": "node afk_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "aternos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "minecraft-protocol": "^1.26.5",
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
