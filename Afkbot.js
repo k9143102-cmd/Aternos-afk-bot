@@ -29,7 +29,7 @@ function createBotInstance() {
     // 1. Bot Configuration
     const bot = mineflayer.createBot({
         host: HOST,
-        port: 25565, // Standard Minecraft port
+        port: 13919, // Standard Minecraft port
         username: USERNAME,
         password: PASSWORD,
         version: VERSION,
